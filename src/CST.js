@@ -1,0 +1,28 @@
+export const CST = {
+    SCENES: {
+      LOADING: "LOADING",
+      NAME: "NAME",
+      TITLE: "TITLE",
+      CAMPUS: "CAMPUS",
+      SEOUL: "SEOUL",
+      CHEONAN: "CHEONAN",
+      CLEAR: "CLEAR",
+      FINALCLEAR: "FINALCLEAR",
+      SEOULOVER: "SEOULOVER",
+      CHEONOVER: "CHEONOVER",
+
+      YOONGGONG: "YOONGGONG",
+      INSA: "INSA",
+      SABEOM: "SABEOM",
+      TWOGYEONG: "TWOGYEONG",
+      MOONYEAH: "MOONYEAH",
+      MIBAEK: "MIBAEK",
+
+      GONGGWA: "GONGGWA",
+      YOONGGI: "YOONGGI",
+      GEULIN: "GEULIN",
+      DESIGN: "DESIGN",
+      YEAHSOOL: "YEAHSOOL",
+      HAKSAENG: "HAKSAENG"
+    }
+}
