@@ -88,7 +88,8 @@ export class HaksaengScene extends Phaser.Scene {
     this.apple_x = Phaser.Math.Between(100, 600);  // 사과 위치 랜덤
     this.apple_y = Phaser.Math.Between(100, 800);
 
-    this.apple = this.physics.add.sprite(this.apple_x, this.apple_y, this.foodList[0]).setOrigin(0).setDepth(1);
+    // 그림 띄우기
+    this.apple = this.physics.add.sprite(this.apple_x, this.apple_y, this.foodList[0]).setOrigin(0).setDepth(1).setScale(1.5);
 
     // 사과 버튼화
     this.apple.setInteractive({ draggable: false, cursor: "pointer" });
@@ -113,7 +114,8 @@ export class HaksaengScene extends Phaser.Scene {
     this.rice_x = Phaser.Math.Between(100, 600);  // 밥 위치 랜덤
     this.rice_y = Phaser.Math.Between(100, 800);
 
-    this.rice = this.physics.add.sprite(this.rice_x, this.rice_y, this.foodList[1]).setOrigin(0).setDepth(1);
+    // 그림 띄우기
+    this.rice = this.physics.add.sprite(this.rice_x, this.rice_y, this.foodList[1]).setOrigin(0).setDepth(1).setScale(1.5);
 
     // 밥 버튼화
     this.rice.setInteractive({ draggable: false, cursor: "pointer" });
@@ -138,7 +140,8 @@ export class HaksaengScene extends Phaser.Scene {
     this.soup_x = Phaser.Math.Between(100, 600);  // 국 위치 랜덤
     this.soup_y = Phaser.Math.Between(100, 800);
 
-    this.soup = this.physics.add.sprite(this.soup_x, this.soup_y, this.foodList[2]).setOrigin(0).setDepth(1);
+    // 그림 띄우기
+    this.soup = this.physics.add.sprite(this.soup_x, this.soup_y, this.foodList[2]).setOrigin(0).setDepth(1).setScale(1.5);
 
     // 국 버튼화
     this.soup.setInteractive({ draggable: false, cursor: "pointer" });
@@ -163,7 +166,8 @@ export class HaksaengScene extends Phaser.Scene {
     this.drink1_x = Phaser.Math.Between(100, 600);  // 드링크 위치 랜덤
     this.drink1_y = Phaser.Math.Between(100, 800);
 
-    this.drink1 = this.physics.add.sprite(this.drink1_x, this.drink1_y, this.foodList[3]).setOrigin(0).setDepth(1);
+    // 그림 띄우기
+    this.drink1 = this.physics.add.sprite(this.drink1_x, this.drink1_y, this.foodList[3]).setOrigin(0).setDepth(1).setScale(1.5);
 
     // 드링크 버튼화
     this.drink1.setInteractive({ draggable: false, cursor: "pointer" });
@@ -188,7 +192,7 @@ export class HaksaengScene extends Phaser.Scene {
     this.drink2_x = Phaser.Math.Between(100, 600);  // 드링크 위치 랜덤
     this.drink2_y = Phaser.Math.Between(100, 800);
 
-    this.drink2 = this.physics.add.sprite(this.drink2_x, this.drink2_y, this.foodList[3]).setOrigin(0).setDepth(1);
+    this.drink2 = this.physics.add.sprite(this.drink2_x, this.drink2_y, this.foodList[3]).setOrigin(0).setDepth(1).setScale(1.5);
 
     // 드링크 버튼화
     this.drink2.setInteractive({ draggable: false, cursor: "pointer" });

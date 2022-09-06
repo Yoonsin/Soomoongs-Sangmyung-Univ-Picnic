@@ -250,7 +250,7 @@ class LaserGroup extends Phaser.Physics.Arcade.Group
     }
 
     fireLaser(x, y) {
-		// Get the first available sprite in the group
+		//클래스에 첫번째 인스턴스 가져오기 
 		const laser = this.getFirstDead(false);
 		if (laser) {
 			laser.fire(x, y);

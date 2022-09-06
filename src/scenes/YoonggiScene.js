@@ -72,7 +72,7 @@ export class YoonggiScene extends Phaser.Scene {
   }
 
   drawTime() {
-    this.second = 3;
+    this.second = 7;
     this.textTime = this.add.text(10,10,"", { fontSize: "25px", fontFamily: "Malang", fill: "#FFFFFF"}).setDepth(4); //텍스트 객체 생성
     this.time.addEvent({
       delay: 1000,

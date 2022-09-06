@@ -1,4 +1,3 @@
-/** @type {import("../typings/phaser")} */
 
 import {LoadingScene} from "./scenes/LoadingScene.js";
 import {NameScene} from "./scenes/NameScene.js";
